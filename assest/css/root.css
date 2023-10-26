@@ -1,0 +1,78 @@
+:root {
+    /* font-size */
+
+    --fs-sm: 16px;
+    --fs-1sm: 20px;
+    --fs-lg: 24px;
+    --fs-1lg: 42px;
+    --fs-2lg: 44px;
+    --fs-xl: 62px;
+    /* color */
+    --white: #fff;
+    --black: black;
+    --yellow: #FFCF23;
+    --Corn-Silk: #FFF9E4;
+    --Corn-Silk-2: #FFF9E4;
+    --grey: grey;
+    --white2: #E5E3DD;
+    --grey2: #FFFCF6;
+    /* font-famliy */
+    --ff-mon: "Montserrat Alternates";
+    --ff-ral: " Raleway";
+}
+
+.fs-sm {
+    font-size: var(--fs-sm);
+}
+
+.fs-1sm {
+    font-size: var(--fs-1sm);
+}
+
+.fs-lg {
+    font-size: var(--fs-lg);
+}
+
+.fs-1lg {
+    font-size: var(--fs-1lg);
+}
+
+.fs-2lg {
+    font-size: var(--fs-2lg);
+}
+
+.fs-xl {
+    font-size: var(--fs-xl);
+}
+
+.white {
+    color: var(--white);
+}
+
+.black {
+    color: var(--black);
+}
+
+.yellow {
+    color: var(--yellow);
+}
+
+.Corn-Silk {
+    color: var(--Corn-Silk);
+}
+
+.Corn-Silk2 {
+    color: var(--Corn-Silk-2);
+}
+
+.grey {
+    color: var(--grey);
+}
+
+.ff-mon {
+    font-family: var(--ff-mon);
+}
+
+.ff-ral {
+    font-family: var(--ff-ral);
+}
