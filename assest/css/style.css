@@ -11,7 +11,7 @@
 }
 
 .nav-bg {
-    background: rgba(255, 255, 255, 0.10);
+    background: var(--grey3);
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.06);
 }
 
@@ -55,7 +55,8 @@
 .nav:hover {
     -webkit-text-stroke: 0.2px var(--white) !important;
 }
-.footer:hover{
+
+.footer:hover {
     -webkit-text-stroke: 1.1px var(--white) !important;
     transition: 0.6s;
 }
@@ -77,7 +78,7 @@
 .elipse-h2 {
     position: absolute;
     bottom: 4%;
-    left: 0;
+    left: -4%;
     z-index: -1;
 }
 
@@ -91,7 +92,7 @@
 .elipse-h4 {
     position: absolute;
     bottom: 1%;
-    right: -9%;
+    right: 0;
     z-index: -1;
 }
 
@@ -210,8 +211,135 @@
     margin-left: 20px !important;
 }
 
+.sec-3-ellipse1 {
+    position: absolute;
+    left: 0;
+    top: 2%;
+}
 
+.sec-3-ellipse2 {
+    position: absolute;
+    right: 15%;
+    top: 9%;
+}
 
+.sec-3-ellipse3 {
+    position: absolute;
+    left: 6%;
+    bottom: 5%;
+}
+
+.sec-3-ellipse4 {
+    position: absolute;
+    right: 0;
+    bottom: 3%;
+}
+
+.sec-4-ellipse1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    width: 100% !important;
+}
+.sec-4-ellipse2 {
+    position: absolute;
+    left: 11%;
+    top: 14%;
+    z-index: 0;
+   
+}
+.sec-4-ellipse3 {
+    position: absolute;
+    right: 12%;
+    top: 12%;
+    z-index: 0;
+   
+}
+.sec-4-ellipse4 {
+    position: absolute;
+    right: 0;
+    bottom: 0%;
+    z-index: 0;
+   
+}
+.sec-4-ellipse5 {
+    position: absolute;
+    left: 2%;
+    bottom:9%;
+    z-index: 0;
+   
+}
+.sec-4-ellipse6 {
+    position: absolute;
+    right: 1%;
+    bottom:9%;
+    z-index: 0;
+   
+}
+.sec-5-ellipse1 {
+    position: absolute;
+    left: 0;
+    top:2%;
+    z-index: 0;
+   
+}
+.sec-5-ellipse2 {
+    position: absolute;
+    right: 19%;
+    top:5%;
+    z-index: 0;
+   
+}
+.sec-5-ellipse3 {
+    position: absolute;
+    left: 1%;
+    bottom:42%;
+    z-index: 0;
+   
+}
+.sec-6-ellipse1 {
+    position: absolute;
+    left: 0;
+    top:0%;
+    z-index: 0;
+   
+}
+.sec-6-ellipse2 {
+    position: absolute;
+    left: 9%;
+    top:5%;
+    z-index: 0;
+   
+}
+.sec-6-ellipse3 {
+    position: absolute;
+    right: 5%;
+    bottom:4%;
+    z-index: 0;
+   
+}
+.sec-7-ellipse1 {
+    position: absolute;
+    left: 0;
+    bottom:45%;
+    z-index: 0;
+   
+}
+.sec-7-ellipse2 {
+    position: absolute;
+    right: 9%;
+    bottom:50%;
+    z-index: 0;
+   
+}
+.sec-7-ellipse3 {
+    position: absolute;
+    right: 0;
+    bottom:0%;
+    z-index: 0;
+   
+}
 
 
 .servicebtn {
@@ -219,6 +347,7 @@
     border: 1px solid rgba(255, 255, 255, 0.30);
     padding: 14px 32px;
     transition: all 400ms linear;
+    z-index: 2;
 }
 
 .servicebtn:hover {
@@ -382,12 +511,6 @@
 }
 
 
-
-.silder3-img {
-    max-width: 70px;
-    min-height: 72px;
-}
-
 .slider .slick-center,
 .slider .slick-active {
     max-width: 831.575px !important;
@@ -517,9 +640,10 @@
     .padding-bottom-25 {
         padding-bottom: 25px;
     }
+
     :root {
         /* font-size */
-    
+
         --fs-sm: 15px;
         --fs-1sm: 18px;
         --fs-lg: 20px;
@@ -563,6 +687,7 @@
     .mxw-346 {
         max-width: 350px !important;
     }
+
     .slider-img3 {
         max-width: 383px;
         min-height: 331px;
@@ -609,7 +734,7 @@
         --fs-xl: 35px;
 
     }
-   
+
     .getbtn {
         border-radius: 5px;
         border: 2px solid var(--black);
@@ -629,8 +754,9 @@
     .ms-4 {
         margin-left: 0 !important;
     }
-    
+
 }
+
 @media (max-width:1199px) {
     .border-right {
         border-right: none;
