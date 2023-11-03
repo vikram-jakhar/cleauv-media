@@ -629,12 +629,13 @@
         display: none;
     }
 
-    li {
+  .border-bottom-nav {
         border-bottom: 1px solid white;
         width: 80%;
         display: flex;
         justify-content: center;
         padding-top: 30px;
+        font-size: var(--fs-xl);
     }
 
     .padding-bottom-25 {
@@ -654,26 +655,86 @@
 }
 
 @media (max-width:786px) {
-
-
-    .elipse-h3 {
-        position: absolute;
-        top: 22%;
-        right: -6%;
-        z-index: -1;
+    .sec-3-ellipse1 {
+       display: none !important;
     }
-
-    .elipse-h4 {
-        position: absolute;
-        bottom: 1%;
-        right: -14%;
-        z-index: -1;
+    
+    .sec-3-ellipse2 {
+        display: none !important;
     }
-
-    .el-3 {
-        right: 24%;
-
+    
+    .sec-3-ellipse3 {
+        display: none !important;
     }
+    
+    .sec-3-ellipse4 {
+        display: none !important;
+    }
+    
+    .sec-4-ellipse1 {
+        display: none !important;
+    }
+    .sec-4-ellipse2 {
+        display: none !important;
+       
+    }
+    .sec-4-ellipse3 {
+        display: none !important;
+       
+    }
+    .sec-4-ellipse4 {
+        display: none !important;
+       
+    }
+    .sec-4-ellipse5 {
+        display: none !important;
+       
+    }
+    .sec-4-ellipse6 {
+        display: none !important;
+       
+    }
+    .sec-5-ellipse1 {
+        display: none !important;
+       
+    }
+    .sec-5-ellipse2 {
+       
+        display: none !important;
+       
+    }
+    .sec-5-ellipse3 {
+        display: none !important;
+       
+    }
+    .sec-6-ellipse1 {
+        display: none !important;
+       
+    }
+    .sec-6-ellipse2 {
+        display: none !important;
+       
+    }
+    .sec-6-ellipse3 {
+        display: none !important;
+       
+    }
+    .sec-7-ellipse1 {
+        display: none !important;
+       
+    }
+    .sec-7-ellipse2 {
+        display: none !important; position: absolute;
+        right: 9%;
+        bottom:50%;
+        z-index: 0;
+       
+    }
+    .sec-7-ellipse3 {
+        display: none !important;
+       
+    }
+    
 
     :root {
         /* font-size */
@@ -726,7 +787,7 @@
 
     :root {
         /* font-size */
-        --fs-sm: 14px;
+        --fs-sm: 16px;
         --fs-1sm: 16px;
         --fs-lg: 20px;
         --fs-1lg: 32px;
